@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "name": "06-ReactJour6-Deliveroo-BackEnd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
