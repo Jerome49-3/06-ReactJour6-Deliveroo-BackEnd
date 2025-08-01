@@ -70,6 +70,7 @@ app.use(getCaddy);
 
 app.get("/", (req, res) => {
   console.log("Welcome to my deliveroo's replica");
+  res.status(200).json({ message: "Welcome to my deliveroo's replica" });
 });
 app.all("*", (req, res) => {
   // console.log("all routes");
